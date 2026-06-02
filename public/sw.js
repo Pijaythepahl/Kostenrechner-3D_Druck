@@ -1,4 +1,4 @@
-const CACHE_NAME = "kostenrechner-v2";
+const CACHE_NAME = "kostenrechner-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -32,6 +32,9 @@ self.addEventListener("fetch", (event) => {
         const copy = response.clone();
         caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
         return response;
+      }).catch(() => {
+        if (event.request.mode === "navigate") return caches.match("./index.html");
+        throw new Error("Network request failed");
       });
     })
   );
