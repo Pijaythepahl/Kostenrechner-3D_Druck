@@ -1,5 +1,12 @@
-const CACHE_NAME = "kostenrechner-v1";
-const APP_SHELL = ["./", "./index.html", "./manifest.webmanifest", "./public/icons/icon.svg"];
+const CACHE_NAME = "kostenrechner-v2";
+const APP_SHELL = [
+  "./",
+  "./index.html",
+  "./manifest.webmanifest",
+  "./public/icons/app-icon-192.png",
+  "./public/icons/app-icon-512.png",
+  "./public/icons/apple-touch-icon.png",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)));
