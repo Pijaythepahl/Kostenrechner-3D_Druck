@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kostenrechner Icon">
+  <rect width="512" height="512" rx="96" fill="#f7f4ee"/>
+  <path d="M118 156h264v58H118z" fill="#263238"/>
+  <path d="M146 214h208v116H146z" fill="#e9dfcc" stroke="#263238" stroke-width="18"/>
+  <path d="M179 255h146M179 294h106" stroke="#263238" stroke-width="18" stroke-linecap="round"/>
+  <path d="M170 372h60M270 372h72" stroke="#d44d35" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="368" cy="142" r="28" fill="#4c8c7a"/>
+</svg>

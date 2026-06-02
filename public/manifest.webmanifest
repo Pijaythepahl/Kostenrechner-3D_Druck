@@ -1,0 +1,18 @@
+{
+  "name": "Kostenrechner 3D Druck und Laser",
+  "short_name": "Kostenrechner",
+  "description": "Preisrechner fuer 3D-Druck und Laserarbeiten.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ee",
+  "theme_color": "#f7f4ee",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
